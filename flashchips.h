@@ -177,7 +177,7 @@
 #define ATMEL_AT45DB011D	0x2200
 #define ATMEL_AT45DB021		/* No ID (opcode) available for AT45DB021, AT45DB021A, AT45DB021B */
 #define ATMEL_AT45DB021D	0x2300
-#define ATMEL_AT45DB021E	/* same as above but with EDI 0x0100 */
+#define ATMEL_AT45DB021E	0x2300 /* same as above but with EDI 0x0100 */
 #define ATMEL_AT45DB041		/* No ID (opcode) available for AT45DB041, AT45DB041A, AT45DB041B */
 #define ATMEL_AT45DB041D	0x2400
 #define ATMEL_AT45DB041E	/* same as above but with EDI 0x0100 */
